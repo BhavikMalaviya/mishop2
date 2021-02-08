@@ -78,7 +78,10 @@ class _PopularProductScreenState extends State<PopularProductScreen> {
                         mainAxisSpacing: 15,
                         crossAxisSpacing: 15,
                         crossAxisCount: 2,
-                        children: [buildGridlist(size.width)],
+                        children: [
+                          buildGridlist(size.width),
+                          buildGridlist(size.width)
+                        ],
                         // children: listOfgroup
                         //     .asMap()
                         //     .map((i, element) => MapEntry(
